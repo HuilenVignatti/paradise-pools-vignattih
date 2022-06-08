@@ -129,11 +129,27 @@ body {
   align-items: center;
   justify-content: center;
 }
-.footer-cont .rrss-cont .rrss .rrss img {
+.footer-cont .rrss-cont .rrss li a img {
   width: 3rem;
 }
-.footer-cont .rrss-cont .rrss .rrss li {
+.footer-cont .rrss-cont .rrss li {
   list-style: none;
+}
+.footer-cont .logo-footer {
+  margin-left: 8rem;
+}
+.footer-cont .logo-footer img {
+  width: 30%;
+}
+.footer-cont .derechos {
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 575px) {
+  .logo-footer img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

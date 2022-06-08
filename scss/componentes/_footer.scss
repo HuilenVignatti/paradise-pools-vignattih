@@ -17,13 +17,28 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            .rrss img{
+            li a img{
                 width: 3rem;    
            }
-           .rrss li {
+           li {
                 list-style: none;
            }  
         }   
     }
-    
+    .logo-footer{
+        margin-left: 8rem;
+        img{
+            width: 30%;    
+         } 
+     }
+    .derechos{
+        font-size: 1.1rem;
+        margin-right: 2rem;
+     }
 }
+
+@media screen and (max-width:575px) {
+    .logo-footer img {
+      display: none;
+    }
+  }
