@@ -1,0 +1,345 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+/*STYLES HEADER*/
+
+.header-cont{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 575px) {
+   .header-cont{
+      display: block;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .logo-header img{
+      display: flex;
+      justify-content: center;
+      margin-left: 25%;
+      margin-top: 5%;
+   }
+}
+
+
+.logo-header img{
+    width: 60%;
+    margin-right: 50%;
+}
+
+.navbar-nav a{
+   color: rgb(6, 113, 200);
+}
+
+@media screen and (min-width:576px) {
+   .navbar-nav a{
+      font-size: 1.5rem;
+     
+   } 
+}
+  
+/*STYLES INICIO*/
+
+.banner-index img{
+    width: 100%;
+    height: 15rem;   
+}
+
+@media screen and (max-width: 575px) {
+   .banner-index img{
+      display: none;
+   }
+   
+}
+
+ .sumergite-cont{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;        
+}
+
+/*Animacion*/
+.sumergite-cont{
+   transition: 1s;
+}
+
+
+.sumergite-cont:hover{
+    transform:scale(1.2);
+   
+}
+
+
+@media screen and (max-width:575px){
+   .sumergite-cont h1, h4{
+      width: 80%;
+      margin-left: 10%;
+   }
+   
+}   
+
+ .menu-main{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 2.5rem;   
+}
+
+
+/*Animacion*/
+.menu-main a{
+  transition: 1s;
+}
+
+ .menu-main a:hover{
+    transform: scale(1.1);
+}
+
+ @media screen and (max-width: 575px) {
+   .menu-main{
+      display: block;
+   }
+
+   .menu-main a img{
+      margin-bottom: 5%;
+   } 
+
+}
+ .menu-main a img{
+    width: 90%;
+    border-radius: 10%;
+    gap: 3rem;
+}
+
+
+ .iframe-cont{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    gap: 1rem;
+    margin-top: 6rem;
+    background-color: rgb(6, 162, 252);
+}
+
+.iframe-cont iframe {
+   border-radius: 3%;
+}  
+
+ @media screen and (max-width: 1300px) {
+      .iframe-cont{
+         display: block;
+      }
+  }
+
+ @media screen and (max-width: 1300px) {
+      .iframe-cont iframe{
+         width: 100%;
+         margin-top: 4%;
+      }
+  }
+
+/*.teesperamos{
+    color: #fff;
+    border: 0.05rem solid #fff;
+    text-align: center; 
+}*/
+
+ /*STYLES FOOTER*/
+
+.footer-cont{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    color: rgb(73, 171, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .rrss-cont{
+    display: flex;
+    width: 33%;   
+}
+
+ .rrss{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.rrss img{
+     width: 3rem;    
+}
+
+.rrss li {
+    list-style: none;
+}
+
+.logo-footer{
+   margin-left: 8rem; 
+}
+
+ .logo-footer img{
+    width: 30%;    
+ }
+
+@media screen and (max-width:575px) {
+   .logo-footer img {
+     display: none;
+   }
+ }
+
+
+ .derechos{
+    font-size: 1.1rem;
+    margin-right: 2rem;
+ }
+
+ /*STYLES NOSOTROS*/
+
+ .nosotros-cont{
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+ }
+
+ .nosotros-cont h1{
+   color:rgb(6, 162, 252);
+   margin-bottom: 1rem;
+ }
+
+ /*Animacion*/
+ .nosotros-cont h1{
+   transition: 1s;
+ }
+
+ .nosotros-cont h1:hover{
+   transform:scale(1.2);
+ }
+
+ @media screen and (max-width: 991px) {
+   .carousel-edit{
+      height: auto;
+
+   } 
+ }
+
+
+ /*STYLES SERVICIOS*/
+
+ .servicios-cont{
+   text-align: center;
+   margin-top: 4rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
+   margin-bottom: 3rem;  
+ }
+
+ .servicios-cont h1{
+   color: rgb(6, 162, 252);
+ }
+ 
+
+ /*Animacion*/
+ .servicios-cont h1{
+   transition: 1s;
+ }
+
+ .servicios-cont h1:hover{
+   transform:scale(1.2);
+ }
+
+ .servicios-list{
+    list-style: none;
+ }
+
+
+ /*STYLES TRABAJOS*/
+
+ .trabajos-cont{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;    
+ }
+
+ .trabajos-cont h1{
+    color: rgb(6, 162, 252);   
+ }
+
+ /*Animacion*/
+ .trabajos-cont h1{
+   transition: 1s;
+ }
+
+ .trabajos-cont h1:hover{
+   transform:scale(1.2);
+ }
+
+
+ /*STYLES CONTACTO*/
+
+ .contacto-cont{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;   
+ }
+
+ .contacto-cont h1{
+    color: rgb(6, 162, 252);
+ }
+
+ /*Animacion*/
+ .contacto-cont h1{
+   transition: 1s;
+ }
+
+ .contacto-cont h1:hover{
+   transform:scale(1.2);
+ }
+
+ .accordion-item{
+    background-color: rgb(6, 162, 252);
+ }
+
+ .iframecontac-cont{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    gap: 1rem;
+    margin-top: 4rem;
+    background-color: rgb(6, 162, 252);
+ }
+
+.teesperamos-contacto{
+    color: #fff;
+    border: 0.05rem solid #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+ 

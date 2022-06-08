@@ -1,0 +1,86 @@
+@import "../base/variables";
+
+.banner-index img{
+    width: 100%;
+    height: 15rem;   
+}
+
+@media screen and (max-width: 575px) {
+    .banner-index img{
+       display: none;
+    }
+    
+ }
+
+ .sumergite-cont{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    transition: 1s;
+        &:hover{
+            transform:scale(1.2);
+}
+ }
+
+ @media screen and (max-width:575px){
+    .sumergite-cont h1, h4{
+       width: 80%;
+       margin-left: 10%;
+    }
+    
+ }   
+
+ .menu-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2.5rem; 
+        a{
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+            a img{
+            width: 90%;
+            border-radius: 10%;
+            gap: 3rem;
+            }
+ }
+ 
+ @media screen and (max-width: 575px) {
+    .menu-main{
+       display: block;
+    }
+ 
+    .menu-main a img{
+       margin-bottom: 5%;
+    } 
+ 
+ }
+
+ .iframe-cont{
+    display: flex;
+    padding: 3rem 3rem 2rem 2rem;
+    gap: 1rem;
+    margin-top: 6rem;
+    background-color:$colorCeleste;
+    iframe{
+        border-radius: 3%;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .iframe-cont{
+       display: block;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .iframe-cont iframe{
+       width: 100%;
+       margin-top: 4%;
+    }
+}
+

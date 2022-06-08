@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "name": "paradisepools-huilenvignatti--desafiosass1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuilenVignatti/proyecto-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuilenVignatti/proyecto-final/issues"
+  },
+  "homepage": "https://github.com/HuilenVignatti/proyecto-final#readme",
+  "description": ""
+}

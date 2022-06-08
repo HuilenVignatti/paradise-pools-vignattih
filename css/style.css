@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.header-cont {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+}
+.header-cont .logo-header img {
+  width: 60%;
+  margin-right: 50%;
+}
+.header-cont .navbar-nav a {
+  color: rgb(6, 113, 200);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 575px) {
+  .header-cont {
+    display: block;
+  }
+}
+@media screen and (max-width: 575px) {
+  .logo-header img {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+}
+.banner-index img {
+  width: 100%;
+  height: 15rem;
+}
+
+@media screen and (max-width: 575px) {
+  .banner-index img {
+    display: none;
+  }
+}
+.sumergite-cont {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  transition: 1s;
+}
+.sumergite-cont:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 575px) {
+  .sumergite-cont h1, h4 {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+.menu-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 2.5rem;
+}
+.menu-main a {
+  transition: 1s;
+}
+.menu-main a:hover {
+  transform: scale(1.1);
+}
+.menu-main a img {
+  width: 90%;
+  border-radius: 10%;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 575px) {
+  .menu-main {
+    display: block;
+  }
+  .menu-main a img {
+    margin-bottom: 5%;
+  }
+}
+.iframe-cont {
+  display: flex;
+  padding: 3rem 3rem 2rem 2rem;
+  gap: 1rem;
+  margin-top: 6rem;
+  background-color: rgb(6, 113, 200);
+}
+.iframe-cont iframe {
+  border-radius: 3%;
+}
+
+@media screen and (max-width: 1300px) {
+  .iframe-cont {
+    display: block;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .iframe-cont iframe {
+    width: 100%;
+    margin-top: 4%;
+  }
+}
+.footer-cont {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2em;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  color: rgb(6, 113, 200);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-cont .rrss-cont {
+  display: flex;
+  width: 33%;
+}
+.footer-cont .rrss-cont .rrss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-cont .rrss-cont .rrss .rrss img {
+  width: 3rem;
+}
+.footer-cont .rrss-cont .rrss .rrss li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

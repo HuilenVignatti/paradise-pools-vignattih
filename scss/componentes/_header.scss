@@ -1,0 +1,45 @@
+@import "../base/variables";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.header-cont{
+    background-color:$colorBlanco;
+    width: 100%;
+    display: flex;
+        .logo-header img{
+            width: 60%;
+            margin-right: 50%;
+            }
+        .navbar-nav a{
+           color: $colorCeleste;
+           font-size: 1.5rem;
+            }
+
+
+  }
+
+  @media screen and (max-width: 575px) {
+    .header-cont{
+       display: block;
+    }
+ }
+ 
+ @media screen and (max-width: 575px) {
+    .logo-header img{
+       display: flex;
+       justify-content: center;
+       margin-left: 25%;
+       margin-top: 5%;
+    }
+ }
+
+  
+ 

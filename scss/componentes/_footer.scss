@@ -1,0 +1,29 @@
+@import "../base/variables";
+
+.footer-cont{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+    background-color:$colorBlanco;
+    color:$colorCeleste;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .rrss-cont{
+        display: flex;
+        width: 33%;
+        .rrss{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .rrss img{
+                width: 3rem;    
+           }
+           .rrss li {
+                list-style: none;
+           }  
+        }   
+    }
+    
+}
