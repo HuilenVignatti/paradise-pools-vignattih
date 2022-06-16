@@ -1,0 +1,6 @@
+@mixin container-iframes ($display, $relleno, $separacion, $margentop) {
+ display: $display;
+ padding: $relleno;
+ gap:$separacion;
+ margin-top:$margentop 
+}

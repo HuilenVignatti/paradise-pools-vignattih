@@ -1,6 +1,12 @@
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/mixin";
 
-.banner-index img{
+
+
+
+/*MAIN INICIO*/
+ .banner-index img{
     width: 100%;
     height: 15rem;   
 }
@@ -9,7 +15,6 @@
     .banner-index img{
        display: none;
     }
-    
  }
 
  .sumergite-cont{
@@ -60,10 +65,7 @@
  }
 
  .iframe-cont{
-    display: flex;
-    padding: 3rem 3rem 2rem 2rem;
-    gap: 1rem;
-    margin-top: 6rem;
+   @include container-iframes (flex, 3rem 3rem 2rem 2rem,1rem, 6rem); /*MIXIN*/
     background-color:$colorCeleste;
     iframe{
         border-radius: 3%;
@@ -84,3 +86,78 @@
     }
 }
 
+
+/*MAIN CONTACTO SEGUIR ESTA SECCION VER SI QUEDO RESPONSIVE*/
+.contacto-cont{
+   @extend %encabezados; /*EXTEND*/
+
+    .accordion-item{
+       background-color: $colorCeleste;
+       color: $colorBlanco;
+   }
+}
+
+.iframecontac-cont{
+   @include container-iframes(flex, 3rem 2rem 3rem 2rem, 1rem, 4rem); /*MIXIN*/
+   justify-content: center;
+   align-content: center;
+   background-color:$colorCeleste;
+      .map-googlec iframe{
+         justify-content: center;
+         width: 100%;
+         height: 100%;
+   }
+   
+}
+
+@media screen and (max-width: 1300px) {
+   .iframecontact-cont{
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 1300px) {
+   .iframecontact-cont iframe{
+      width: 100%;
+      margin-top: 4%;
+   }
+}
+
+/*MAIN NOSOTROS*/
+.nosotros-cont{
+   @extend%encabezados; /*EXTEND*/
+  }
+
+  @media screen and (max-width: 991px) {
+   .carousel-edit{
+      height: auto;
+
+   } 
+ }
+
+/*MAIN SERVICIOS*/
+.servicios-cont{
+   @extend%encabezados; /*EXTEND*/
+     .servicios-list{
+         list-style: none;
+     } 
+ }
+
+ @media screen and (max-width: 991px) {
+   .carousel-edit{
+      height: auto;
+
+   } 
+ }
+
+/*MAIN TRABAJOS*/
+.trabajos-cont{
+   @extend%encabezados; /*EXTEND*/
+}
+
+@media screen and (max-width: 991px) {
+   .carousel-edit{
+      height: auto;
+
+   } 
+ }

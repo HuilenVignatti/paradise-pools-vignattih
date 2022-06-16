@@ -1,0 +1,7 @@
+Desafío SASS Y SEO
+
+Se agregaron etiquetas Meta keywords, description y open graph en todos los HTML. Se modifico el contenido en cada una de ellas segun la página.
+Se modifico el title de cada html, incorporando mas caracteres pero indicando a la vez, a que seccion pertenece la pagina.
+En el body se agregaron etiquetas title en video de Youtube y maps (En Index y Contacto).
+Se uso jerarquía en encabezados, colocando un solo H1 por cada html.
+Se modifico el ALT de todas las imagenes.

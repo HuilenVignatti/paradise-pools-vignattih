@@ -1,3 +1,18 @@
+.trabajos-cont, .servicios-cont, .nosotros-cont, .contacto-cont {
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+.trabajos-cont h1, .servicios-cont h1, .nosotros-cont h1, .contacto-cont h1 {
+  color: rgb(6, 113, 200);
+  transition: 1s;
+}
+.trabajos-cont h1:hover, .servicios-cont h1:hover, .nosotros-cont h1:hover, .contacto-cont h1:hover {
+  transform: scale(1.2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +50,22 @@ body {
     margin-top: 5%;
   }
 }
+.trabajos-cont, .servicios-cont, .nosotros-cont, .contacto-cont {
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+.trabajos-cont h1, .servicios-cont h1, .nosotros-cont h1, .contacto-cont h1 {
+  color: rgb(6, 113, 200);
+  transition: 1s;
+}
+.trabajos-cont h1:hover, .servicios-cont h1:hover, .nosotros-cont h1:hover, .contacto-cont h1:hover {
+  transform: scale(1.2);
+}
+
+/*MAIN INICIO*/
 .banner-index img {
   width: 100%;
   height: 15rem;
@@ -92,6 +123,7 @@ body {
   padding: 3rem 3rem 2rem 2rem;
   gap: 1rem;
   margin-top: 6rem;
+  /*MIXIN*/
   background-color: rgb(6, 113, 200);
 }
 .iframe-cont iframe {
@@ -109,6 +141,90 @@ body {
     margin-top: 4%;
   }
 }
+/*MAIN CONTACTO SEGUIR ESTA SECCION VER SI QUEDO RESPONSIVE*/
+.contacto-cont {
+  /*EXTEND*/
+}
+.contacto-cont .accordion-item {
+  background-color: rgb(6, 113, 200);
+  color: #fff;
+}
+
+.iframecontac-cont {
+  display: flex;
+  padding: 3rem 2rem 3rem 2rem;
+  gap: 1rem;
+  margin-top: 4rem;
+  /*MIXIN*/
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(6, 113, 200);
+}
+.iframecontac-cont .map-googlec iframe {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .iframecontact-cont {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .iframecontact-cont iframe {
+    width: 100%;
+    margin-top: 4%;
+  }
+}
+/*MAIN NOSOTROS*/
+.nosotros-cont {
+  /*EXTEND*/
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-edit {
+    height: auto;
+  }
+}
+/*MAIN SERVICIOS*/
+.servicios-cont {
+  /*EXTEND*/
+}
+.servicios-cont .servicios-list {
+  list-style: none;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-edit {
+    height: auto;
+  }
+}
+/*MAIN TRABAJOS*/
+.trabajos-cont {
+  /*EXTEND*/
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-edit {
+    height: auto;
+  }
+}
+.contacto-cont, .nosotros-cont, .servicios-cont, .trabajos-cont {
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+.contacto-cont h1, .nosotros-cont h1, .servicios-cont h1, .trabajos-cont h1 {
+  color: rgb(6, 113, 200);
+  transition: 1s;
+}
+.contacto-cont h1:hover, .nosotros-cont h1:hover, .servicios-cont h1:hover, .trabajos-cont h1:hover {
+  transform: scale(1.2);
+}
+
 .footer-cont {
   width: 100%;
   height: 3rem;
@@ -150,6 +266,20 @@ body {
   .logo-footer img {
     display: none;
   }
+}
+.contacto-cont, .nosotros-cont, .servicios-cont, .trabajos-cont {
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+.contacto-cont h1, .nosotros-cont h1, .servicios-cont h1, .trabajos-cont h1 {
+  color: rgb(6, 113, 200);
+  transition: 1s;
+}
+.contacto-cont h1:hover, .nosotros-cont h1:hover, .servicios-cont h1:hover, .trabajos-cont h1:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */

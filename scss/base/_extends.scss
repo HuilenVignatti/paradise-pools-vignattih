@@ -1,0 +1,15 @@
+%encabezados{
+   text-align: center;
+   margin-top: 4rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
+   margin-bottom: 3rem;
+   h1{
+      color:$colorCeleste;
+      transition: 1s;
+         &:hover{
+            transform:scale(1.2);
+   
+         }
+   }
+}
