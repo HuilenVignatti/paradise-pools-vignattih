@@ -138,10 +138,11 @@ body {
 @media screen and (max-width: 1300px) {
   .iframe-cont iframe {
     width: 100%;
+    height: 240px;
     margin-top: 4%;
   }
 }
-/*MAIN CONTACTO SEGUIR ESTA SECCION VER SI QUEDO RESPONSIVE*/
+/*MAIN CONTACTO*/
 .contacto-cont {
   /*EXTEND*/
 }
