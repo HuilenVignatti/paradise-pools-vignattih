@@ -197,7 +197,7 @@ body {
 .trabajosimg-cont {
   display: grid;
   gap: 1rem;
-  margin: 2rem;
+  margin: 3rem;
   grid-template-columns: 3fr 3fr 3fr;
   grid-template-rows: 3fr 3fr 3fr;
 }
@@ -263,6 +263,9 @@ body {
 
 @media screen and (max-width: 575px) {
   .logo-footer img {
+    display: none;
+  }
+  .derechos {
     display: none;
   }
 }
