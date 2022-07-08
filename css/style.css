@@ -189,11 +189,6 @@ body {
   /*EXTEND*/
 }
 
-@media screen and (max-width: 991px) {
-  .carousel-edit {
-    height: auto;
-  }
-}
 .trabajosimg-cont {
   display: grid;
   gap: 1rem;
